@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel='stylesheet prefetch' href='http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css'>
+    <link rel="stylesheet" href="./style.css">
+    <title>FilterMenu</title>
+</head>
+
+<body>
+
+    <div class="muck-up">
+        <div class="overlay"></div>
+        <div class="top">
+            <div class="nav">
+                <span class="ion-android-menu"></span>
+                <p>Timeline</p>
+            </div>
+            <div class="user-profile">
+                <img src="./assets/pic.jpg">
+                <div class="user-details">
+                    <h4>Nelly Bennet</h4>
+                    <p>Web/Front-end Designer</p>
+                </div>
+            </div>
+        </div>
+        <div class="clearfix"></div>
+        <div class="filter-btn">
+            <a id="one" href="#"><i class="ion-ios-checkmark-outline"></i></a>
+            <a id="two" href="#"><i class="ion-ios-alarm-outline"></i></a>
+            <a id="three" href="#"><i class="ion-ios-heart-outline"></i></a>
+            <a id="all" href="#"><i class="ion-ios-star-outline"></i></a>
+            <span class="toggle-btn ion-android-funnel"></span>
+        </div>
+        <div class="clearfix"></div>
+        <div class="bottom">
+            <div class="title">
+                <h3>My Tasks</h3>
+                <small>July 8,2021</small>
+            </div>
+            <ul class="tasks">
+                <li class="one red">
+                    <span class="task-title">Make New Icon</span>
+                    <span class="task-time">5pm</span>
+                    <span class="task-cat">Web App</span>
+
+                </li>
+                <li class="one red">
+                    <span class="task-title">Catch up with Brian</span>
+                    <span class="task-time">3pm</span>
+                    <span class="task-cat">Mobile Project</span>
+
+                </li>
+                <li class="two green">
+                    <span class="task-title">Design Explorations</span>
+                    <span class="task-time">2pm</span>
+                    <span class="task-cat">Company Web site</span>
+
+                </li>
+                <li class="three yellow">
+                    <span class="task-title">New Projects</span>
+                    <span class="task-time">2pm</span>
+                    <span class="task-cat">Starting</span>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="./main.js"></script>
+</body>
+
+</html>
